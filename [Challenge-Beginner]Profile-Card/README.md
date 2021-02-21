@@ -6,7 +6,7 @@
 
 ## Resultado Alcançado
 ### Versão Mobile
-![Card Mobile](https://i.imgur.com/ZKz8Md5.png)
+![Card Mobile](https://i.imgur.com/ZKz8Md5.png = 375px)
 
 ### Versão Desktop
 ![Card Desktop](https://i.imgur.com/sZO16G4.png)
