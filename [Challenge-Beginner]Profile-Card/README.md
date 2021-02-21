@@ -10,3 +10,6 @@
 
 ### Versão Desktop
 ![Card Desktop](https://i.imgur.com/sZO16G4.png)
+
+### Link para o Vercel
+- https://frontend-mentor-alpha.vercel.app/
