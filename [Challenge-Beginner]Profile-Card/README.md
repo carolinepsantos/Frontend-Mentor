@@ -11,5 +11,7 @@
 ### Versão Desktop (1440px)
 <img alt="Card Desktop" src="https://i.imgur.com/sZO16G4.png" width="500"></img>
 
-### Link para o Vercel
+### Links para o Vercels
 - https://frontend-mentor-alpha.vercel.app/
+- https://frontend-mentor-git-main-carolinepsantos.vercel.app/
+- https://frontend-mentor-carolinepsantos.vercel.app/
