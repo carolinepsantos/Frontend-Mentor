@@ -1,0 +1,132 @@
+/* ANCHOR Importando a fonte utilizada */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* ANCHOR Definindo as constantes que serão utilizadas */
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --dark-blue: hsl(229, 23%, 23%);
+    --dark-blue-gray: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+/* ANCHOR Definindo as propriedades padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    height: 100%;
+    overflow: hidden;
+}
+/* ANCHOR Typography */
+h1 {
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--dark-blue);
+}
+span, p {
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+#age-profile, 
+#city-profile {
+    color: var(--dark-blue-gray);
+}
+p, .attribution {
+    font-size: 0.78em;
+}
+/* ANCHOR Background */
+.container {
+    background-color: var(--dark-cyan);   
+    height: 100%; 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bg-top {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    z-index: 0;
+}
+.bg-bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+}
+/* ANCHOR Content */
+.content {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ANCHOR Card */
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 375px;
+    background: #ffffff url('../images/bg-pattern-card.svg') no-repeat;
+    border-radius: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* Card Profile */
+.card-profile {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+#img-profile img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#name-profile {
+    padding-top: 1em;
+}
+#city-profile {
+    padding: 0.5em;
+}
+/* Card Footer */
+.card-footer {
+    position: absolute;
+    border-top: 1px solid #e3e3e3;
+    bottom: 0;
+    width: 100%;
+}
+.social-media-profile {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.social-media-numbers {
+    padding: 1em 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-numbers {
+    padding: 0.3em 0;
+}
+.social-tag {
+    font-size: 0.5em;
+    text-transform: capitalize;    
+    letter-spacing: 2px;
+}
+
+.attribution { 
+    padding: 0;
+    font-size: 11px; 
+    text-align: center; 
+    color: #ffffff;
+}
+.attribution a { 
+    color: hsl(60, 65%, 50%); 
+    font-weight: 300;
+}
