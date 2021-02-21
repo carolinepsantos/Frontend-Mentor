@@ -5,11 +5,11 @@
 - Your challenge is to build this profile card component and make it as similar as possible to the design.
 
 ## Resultado Alcançado
-### Versão Mobile
-![Card Mobile](https://i.imgur.com/ZKz8Md5.png = 375px)
+### Versão Mobile (375px)
+<img alt="Card Mobile" src="https://i.imgur.com/ZKz8Md5.png" width="200"></img>
 
-### Versão Desktop
-![Card Desktop](https://i.imgur.com/sZO16G4.png)
+### Versão Desktop (1440px)
+<img alt="Card Desktop" src="https://i.imgur.com/sZO16G4.png" width="500"></img>
 
 ### Link para o Vercel
 - https://frontend-mentor-alpha.vercel.app/
