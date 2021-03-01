@@ -50,15 +50,16 @@ body {
 .join-community h1 {
     color: var(--medium-cyan);
     padding-bottom: 1em;
+    font-size: 1.6em;
 }
 .join-community h2 {
     color: var(--bright-yellow);
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-bottom: 1em;
 }
 .join-community p {
     color: var(--grayish-blue);
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 300;
 }
 /* !SECTION */
@@ -69,6 +70,7 @@ body {
     color: #ffffff;
 }
 .monthly-subscription h3 {  
+    font-size: 1.2em;
     padding-bottom: 1em;
 }
 .monthly-subscription .month-price {
@@ -81,6 +83,7 @@ body {
 }
 .monthly-subscription .description {
     padding-bottom: 2em;
+    font-size: 1.1em;
 }
 .monthly-subscription button {
     display: block;
@@ -102,9 +105,11 @@ body {
 .why-us h3 {
     color: #ffffff;
     padding-bottom: 1em;
+    font-size: 1.2em;
 }
 .why-us p {
     color: var(--light-gray);
+    font-size: 1.1em;
 }
 /* !SECTION */
 
@@ -116,6 +121,7 @@ footer {
 .attribution a:visited, 
 .attribution a:hover {
     color: var(--medium-cyan);
+    font-size: 1.1em;
 }
 /* SECTION Responsividade */
 @media screen and (max-width: 594px) {
